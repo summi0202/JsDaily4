@@ -1,0 +1,38 @@
+Q1. Create the Example for Logical Operators 
+Ans.    let age = parseInt(prompt("Enter Your age"))
+       
+        if(age>=18 && age<=35 ){
+            console.log("You are eligible ");
+        } else{
+            console.log("You are not eligible ");
+        }
+
+    Example2. 
+        let temp =prompt("Enter any number")
+
+       if (temp>=21 && temp<=51){
+        console.log("Its a summer season")
+       } else if (temp>=0 && temp<=20){
+        console.log("Its winter season")
+       } else {
+        console.log("Enter number between 0 to 51")
+       }
+
+Q2. Difference between “ == “ and “ === “ operators.
+Ans. == equal to
+     === Equal value and equal data type
+
+Q3. How many operators do we have in JS ?
+ Ans. We've 7 types of JavaScript operators: Arithmetic, assignment, comparison, logical, ternary, typeof, and bitwise operators.
+
+Q4. What is use of parseInt in js?
+Ans. We use parseInt for converting integer into number.
+
+Q5. Take input from user and find the odd and even number.
+Ans. let num = prompt("Enter any number")
+
+     if (num%2==0 ){
+        console.log(" Its an Even number")
+     } else {
+        console.log("Its an Odd Number")
+     }
